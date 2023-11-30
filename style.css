@@ -3,48 +3,36 @@ body {
 }
 
 header {
-  background-color: #f53363;
+  background-color: rgb(233, 47, 135);
+  padding: 20px;
   display: flex;
   justify-content: center;
-  padding: 8px;
+  border-radius: 4px;
 }
 
-#header-box {
+#header-container {
   display: flex;
+  gap: 8px;
+  justify-content: center;
   align-items: center;
-  justify-content: center;
-  gap: 4px;
-  padding: 4px;
-  border-radius: 16px;
-  background-color: darkcyan;
+  background-color: #27283d;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  border-radius: 4px;
 }
 
-header h1 {
-  color: #f53363;
-  font-weight: bolder;
-  text-align: center;
-  background-color: #f5d66f;
-  border-radius: 8px;
-  font-size: 40px;
-
-  padding: 4px;
+#title {
+  color: #f63367;
+  background-color: #f6d571;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: "Abril Fatface";
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  padding: 8px;
-  background-color: #944df7;
-}
-
-#screen {
-  width: 100%;
-  height: 500px;
-  background-color: #59e5a8;
-  padding: 4px;
-}
-
-#joystick-icon {
-  color: #f5d66f;
-  font-size: 40px;
+.fa-circle {
+  color: rgb(247, 188, 56);
+  font-size: 30px;
 }
